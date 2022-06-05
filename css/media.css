@@ -768,6 +768,15 @@
   .footer .footer-row__sociales {
     width: 100%;
   }
+
+  .contactus-form form .input-buttons .button-submit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media screen and (max-width: 460px) {
   .banner .banner-top .banner-row__brand svg .text--line {
